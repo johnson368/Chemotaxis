@@ -1,7 +1,7 @@
   Zombie[] z;
  void setup()   
  {     
-   size (800,800);
+   size (1000,1000);
    frameRate(40);
        z = new Zombie[300];
        for (int i = 0; i < z.length; i++) 
@@ -24,8 +24,8 @@
   int myX, myY, zhead, zeye, zbody;
    Zombie()
    {
-     myX = 400;
-     myY = 400;
+     myX = 500;
+     myY = 500;
      zhead = color(120, 193, 101);
      zeye = color(255, 255, 255);
      zbody = color(102, 0, 0);
