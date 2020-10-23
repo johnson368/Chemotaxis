@@ -1,7 +1,7 @@
   Zombie[] z;
  void setup()   
  {     
-   size (500,500);
+   size (800,800);
    frameRate(40);
        z = new Zombie[300];
        for (int i = 0; i < z.length; i++) 
